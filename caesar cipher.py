@@ -12,9 +12,6 @@ def caesar(start_text, shift_amount, cipher_direction):
     else:
       end_text += char
   print(f"Here's the {cipher_direction}d result: {end_text}")
-from art import logo
-print(logo)
-should_end = False
 while not should_end:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
